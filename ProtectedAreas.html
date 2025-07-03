@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Areas</title>
+    <link rel="stylesheet" href="newstyle1.css">
+    <link rel="stylesheet" href="newStyle.css">
+    <link rel="stylesheet" href="popup.css"> <!-- Link to the new stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- home section starts here  -->
+    <section class="home">
+        <div class="home-box">
+            <nav>
+                <div class="logo bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <img src="Logo.png" alt="Pagbilao Logo" class="pagbilao-logo">
+                    <h1>Welcome to Pagbilao</h1>
+                </div>
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <ul>
+                        <li onclick="myFunctionHOME()"><a href="#">home</a></li>
+                    
+                        
+                    </ul>
+                </div>
+             
+                 
+                </div>
+            </nav>
+
+           
+        </div>
+    </section>
+
+   
+    <!-- destinatons section starts here  -->
+    <section class="destinations">
+    <!-- home section ends here  -->
+
+<br> <h1 class="label">Palsabangon Mangrove Swamp</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Palsabangon Mangrove Swamp Forest Reserve, the largest in Quezon Province, is protected under the NIPAS Act of 1992. Surrounded by lush trees and calm waters, it offers scenic beauty ideal for relaxation and educational tours. It supports local livelihoods through tourism and food sources, and has drawn researchers studying potential COVID-19 treatments. Managed by the Protected Area Management Board (PAMB), it plays a vital role in conservation and community development."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Mangrove.png" alt="Palsabangon Mangrove Swamp" class="destination-img-animate"></div></p><br><strong><p> Palsabangon Mangrove Swamp </strong> <br> ----- <br><h6>Photo taken September of 2021 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description"><strong> Palsabangon Mangrove Swamp Forest Reserve </strong>, covering 587 hectares across Brgy. Palsabangon and Brgy. Pinagbayanan, is the largest mangrove ecosystem in Quezon Province. Once threatened by illegal activities, it now thrives under NIPAS protection. Home to diverse species like crabs, birds, clams, and monitor lizards, it features a hanging bridge, five-story view deck, and kayak-friendly mangrove tunnels. Now a key ecotourism and research site, it draws students, vloggers, and even Miss Earth delegates.
+<br> <br> 🌟Fun Fact: Locals fondly call it "Palaruan sa Bakawan" (Mangrove Playground). Here, you can kayak, birdwatch, camp, and join friendly fishing events. Its mangrove tunnel view was so stunning, it once won a virtual tour contest in Quezon Province!
+<br> <br></p>
+                   
+                                <br> <br> <a href="#" onclick="myFunctionMangrove()">Location: Palsabangon Mangrove Swamp   <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionMangroveDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Iringan Falls -->
+                <div class="see-more-popup" id="seeMoreMangrove" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeMangroveSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> Palsabangon Mangrove Swamp </strong> </h4>
+
+<br> <Br> <strong> The Palsabangon Mangrove Swamp Forest Reserve </strong>, located in Brgy. Palsabangon and part of Brgy. Pinagbayanan in Pagbilao, Quezon, spans 587 hectares and stretches 9.97 km. Accessible by land or boat, it features mangrove forests, fishponds, rice fields, and coconut plantations. Inside the reserve are key facilities like a PASu Office, event hall, nursery, and a five-story view deck. Visitors enter through a hanging bridge surrounded by mangrove species like bungalon, bakauan lalaki, and bakauan babae. The soil varies from sandy loam to clay, and five rivers and creeks flow through it. The reserve shelters diverse wildlife—fish, crabs, clams, monitor lizards, snakes, and birds—including resident, endemic, and migrant species categorized by rarity and feeding behavior such as piscivores, herbivores, and insectivores.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Mangrove.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div> 
+
+<br> <h1 class="label"> Binahaan River Watershed Forest Reserve</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Binahaan Watershed Forest Reserve offers aesthetic beauty with its lush flora, fauna, and scenic waterfalls ideal for trekking, birdwatching, and swimming. Scientifically, it has been a site for research by institutions like the former Timber Land A Project No. 21, now under DENR, and by students from UPLB studying local biodiversity. Socioeconomically, the watershed supports local agriculture by irrigating rice fields and supplying water to the Mirant Philippines power plant—creating livelihood opportunities for residents. Socially, it also serves as a destination for ecotourism and local community activities."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Binhaan Dam.png" alt=" Binahaan River Watershed Forest Reserve" class="destination-img-animate"></div></p><br><strong><p>  Binahaan River Watershed Forest Reserve </strong> <br> ----- <br><h6>Photo taken September of 2021 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description"><strong> Binahaan Watershed Forest Reserve </strong> in Sitio Logpond, Brgy. Binahaan, spans rugged ridges, deep valleys, and vital rivers like Binahaan Malaki, Busilak, and Locohin—named for a flood that came without rain. Declared protected in 1991 (Proclamation No. 735), it supplies water for farming, drinking, and Pagbilao's power plant. Home to dipterocarp trees, deer, monkeys, hornbills, and bleeding-heart pigeons, it attracts students, scientists, and adventurers exploring its hidden waterfalls and rich biodiversity once threatened by poaching and deforestation.
+<br> <br> 🌟Fun Fact: The name "Locohin" comes from a local phrase, "nanloloko ang ilog," meaning the river floods without warning—even under sunny skies!
+<br> <br></p>
+                   
+                                <br> <br> <a href="#" onclick="myFunctionBinhaanDam()">Location:  Binahaan River Watershed Forest Reserve   <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionBinhaanDamDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Iringan Falls -->
+                <div class="see-more-popup" id="seeMoreBinhaanDam" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeBinhaanDamSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br>  Binahaan River Watershed Forest Reserve</strong> </h4>
+
+<br> <Br> <strong> The Binahaan Watershed Forest Reserve </strong>, located in Sitio Logpond, Barangay Binahaan, Pagbilao, Quezon, lies 150 kilometers from Manila and 2 to 5 kilometers off the Maharlika Highway. Covering varied terrain—from plains and valleys to steep gullies and rugged mountains—the area is dominated by Bolinao clay and sandy clay loam soils. The watershed hosts old-growth and secondary dipterocarp forests interspersed with degraded grasslands and ravines. It supports rich biodiversity, including rufous hornbills, bleeding-heart pigeons, Philippine deer, monkeys, and wild pigs, alongside abundant insect and plant life such as Dipterocarpus, Shorea, Hopea, and rattan species. Its scenic mountain views, natural waterfalls, and wildlife presence make it valuable for both conservation and eco-tourism.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Binhaan Dam.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div> 
+
+        <br> <h1 class="label"> Quezon Protected Landscape (QPL)</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Quezon Protected Landscape significantly benefits Pagbilao and nearby areas across multiple aspects. It boosts local livelihoods through eco-tourism and seedling sales, offers scenic spots for leisure and recreation, and serves as a hub for scientific research and biodiversity conservation. Socially, it encourages community interaction and environmental awareness. Historically, it was a route for Katipuneros during the Spanish era. Politically, it is protected under the NIPAS Act of 1992 and managed by the Protected Area Management Board (PAMB)."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="QPL.png" alt=" Quezon Protected Landscape (QPL)" class="destination-img-animate"></div></p><br><strong><p>  Binahaan River Watershed Forest Reserve </strong> <br> ----- <br><h6>Photo taken September of 2021 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">The <strong> Quezon Protected Landscape </strong> in Pagbilao, Quezon, is a 566.10-hectare portion of a larger forest reserve shared with Atimonan and Padre Burgos. Declared a national park in 1934 and now protected under the NIPAS and ENIPAS Acts, it features lush forests, waterfalls, nature trails, and diverse wildlife including hornbills and Philippine deer. Sites like Amao Falls, Buenavista Spot, and the iconic EME Zigzag Road attract tourists, hikers, and researchers alike.
+<br> <br> 🌟Fun Fact: Hikers who complete all eight waterfalls along the Amao trail receive a certificate of achievement from the park office—perfect proof of your eco-adventure!
+<br> <br></p>
+                   
+                                <br> <br> <a href="#" class="location" onclick="myFunctionQPL()">Location:  Quezon Protected Landscape (QPL)   <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionQPLDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Iringan Falls -->
+                <div class="see-more-popup" id="seeMoreQPL" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeQPLSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br>  Quezon Protected Landscape (QPL)</strong> </h4>
+
+<br> <Br>The Pagbilao part of the <strong> Quezon Protected Landscape </strong> encompasses 566.10 hectares within the larger 938-hectare protected area situated along the southern Sierra Madre Mountain Range in Quezon Province. This section includes natural attractions such as Amao Falls, EME Road, Buenavista Spot, the View Deck, and the PASu Office and Picnic Area. Originally established as Quezon National Park in 1934 and later expanded and reclassified under the NIPAS Act of 1992, the area is now protected under Republic Act No. 11038 or the ENIPAS Act of 2018. It is one of the few remaining forested landscapes in the CALABARZON region and plays a vital ecological role by housing dipterocarp-dominated tropical rainforests, rare wildlife species, mineral deposits, and freshwater sources.
+
+The terrain of the protected landscape ranges from flat lands to steep mountain slopes, covered in a dense forest canopy that supports a rich array of flora and fauna. Trees such as Dipterocarpus, Shorea, Parashorea, and Pentacme are common, along with non-dipterocarp species like Ficus, Syzygium, and rattan. Wildlife such as Philippine macaques, deer, rufous hornbills, and endangered birds like the spotted wood kingfisher and Luzon little crow thrive in this habitat. Sites like the Amao Falls feature an 8-stage cascade where trekkers can earn a certificate for completing the trail. Meanwhile, the View Deck in Silangang Malicboy offers breathtaking vistas of Tayabas Bay, dense forest canopies, and wildlife in their natural environment.
+
+The area is not only a natural haven but also a center for education and community development. With strict guidelines in place, tourists must be accompanied by trained guides, and efforts are ongoing to improve eco-tourism facilities like the picnic areas and natural pools. Historically, the region played a role during the Japanese era, and local lore even speaks of hidden treasures within the forest. The site continues to support biodiversity conservation while serving as a recreational, scientific, and cultural destination for locals and visitors alike.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="QPL.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div> 
+
+
+    </section>
+    <!-- Feedback section ends here -->
+
+    <!-- destinatons section ends here  -->
+
+    <!-- featured 
+    <-- footer section starts here  -->
+    <footer>
+        <div class="footer-blue-bar top"></div>
+        <div class="footer-yellow">
+            <section class="footer">
+                <div class="container">
+                    <div class="detail">
+                        <h1>PAGBILAO TOURISM</h1>
+                        <p>ENJOY, HAVE FUN , AND EXPERIENCES <br> OUR NATURAL, IMMOVABLE AND CULTURAL INSTITUITION</p>
+                        <div class="social">
+                            <a href="#" onclick="myFunctionFB()" ><i class="fa fa-facebook-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="about-us">
+                        <h2>LGU PAGBILAO</h2>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">Pagbilao Municipal Hall, Rizal St., <br>Brgy. Sta. Catalina, Pagbilao, Quezon</a></li>
+                        <li><a href="#">Telephone No.:  <span>(042) 797-0937</span></a></li>
+                    </div>
+                    <div class="about-us">
+                        <h4>EMERGENCY HOTLINES</h4>
+                        <li><a href="#">Philippine National Police</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-2854</span></a></li>
+                        <li><a href="#">Bureau of Fire Protection</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-0932</span></a></li>
+                        <li><a href="#">Municipal Health Office</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-3092</span></a></li>
+                    </div>
+                </div>
+                <div class="copyright">
+                    &copy;2025 -Pagbilao, Quezon, Philippines. all rights reserved
+                    <div>
+                        <a href="#">term & conditions</a>
+                        <a href="#">privacy policy</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <!-- footer section ends here  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="newscript.js"></script>
+    
+      <style>
+    .place-popup {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #52b116;
+      border: 6px solid #ffffff;
+      box-shadow: 0 0 32px 0 #52b116, 0 0 0 8px #52b116;
+      color: #fff;
+      border-radius: 18px;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 10;
+      transition: opacity 0.2s;
+    }
+    .place-popup.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .popup-header {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 15px;
+    }
+    .popup-close-btn {
+      font-size: 1.5rem;
+      background: #e6c7b0 !important;
+      color: #8B5C2A !important;
+      border: 1.5px solid #f6f6f6 !important;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.2s;
+    }
+    .popup-close-btn:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .popup-content {
+      flex: 1;
+      padding: 0 1.5rem 1.5rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: justify;
+    }
+    .popup-content h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .popup-content strong {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .popup-content p {
+      font-size: 1.35rem;
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+    .popup-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .popup-gallery-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 14px;
+      border: 2.5px solid #fff;
+      background: #222;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    #scrollToTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      background-color: #0056b3;
+      color: #fff;
+      cursor: pointer;
+      padding: 0;
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      font-size: 2rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      line-height: 48px;
+      text-align: center;
+      box-shadow: none;
+      transition: none;
+    }
+    #scrollToTopBtn:hover {
+      background-color: #0056b3;
+    }
+    #scrollToTopBtn i {
+        font-size: 20px;
+    }
+    
+    /* Show scroll-to-top button only on mobile devices */
+    @media (max-width: 768px) {
+        #scrollToTopBtn {
+            display: block;
+        }
+    }
+    
+    /* Hide scroll-to-top button on desktop */
+    @media (min-width: 769px) {
+        #scrollToTopBtn {
+            display: none !important;
+        }
+    }
+    
+    .img-container-5x5 {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .img-container-5x5 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .container-box .content p {
+      font-size: 1.35rem;
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+    </style>
+    <script>
+    const placeBoxes = document.querySelectorAll('.container-box[data-place-title]');
+    let popupTimer = null;
+
+    placeBoxes.forEach(box => {
+      const popup = box.querySelector('.place-popup');
+      const popupTitle = popup.querySelector('h3');
+      const popupStory = popup.querySelector('.popup-story');
+      const closeBtn = popup.querySelector('.popup-close-btn');
+
+      // Use a function to show the popup to avoid duplicating code
+      const showPopup = () => {
+        popupTitle.textContent = box.getAttribute('data-place-title') || '';
+        popupStory.textContent = box.getAttribute('data-place-story') || '';
+        popup.classList.add('show');
+      };
+
+      // Use mouseenter and mouseleave for desktop only
+      if (window.innerWidth > 600) {
+        box.addEventListener('mouseenter', () => {
+          popupTimer = setTimeout(showPopup, 500);
+        });
+        box.addEventListener('mouseleave', () => {
+          clearTimeout(popupTimer);
+          popup.classList.remove('show');
+        });
+      }
+
+      // Add click event directly to the image only for mobile
+      if (window.innerWidth <= 600) {
+        const image = box.querySelector('.destination-img-animate');
+        if (image) {
+          image.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            showPopup();
+          });
+        }
+      }
+      
+      if (closeBtn) {
+        closeBtn.addEventListener('click', (e) => {
+          e.stopPropagation(); // Stop the click from bubbling up to the box
+          popup.classList.remove('show');
+        });
+      }
+    });
+
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    window.addEventListener('scroll', () => {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    });
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    </script>
+
+    <style>
+    @media (max-width: 600px) {
+      .place-popup {
+        width: 98vw;
+        height: 98vh;
+        border-width: 3px;
+        border-radius: 10px;
+        padding: 0.5rem 0.2rem;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        background: #52b116;
+        border: 3px solid #ffffff;
+        box-shadow: 0 0 16px 0 #52b116, 0 0 0 4px #52b116;
+      }
+      .popup-content {
+        padding: 0.5rem;
+      }
+      .popup-content h3 {
+        font-size: 1.2rem;
+        padding-top: 4rem; /* Increased padding to lower the title further */
+      }
+      .popup-content strong {
+        font-size: 1rem;
+      }
+      .popup-content p {
+        font-size: 1rem;
+      }
+      .popup-gallery {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+      .popup-gallery-img {
+        width: 180px;
+        height: 180px;
+      }
+      .popup-close-btn {
+        background: #fffbe6 !important;
+        color: #5ce508 !important;
+        border: 1.5px solid #ffffff !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      }
+      .img-container-5x5 {
+        width: 90vw;
+        height: 40vw;
+        max-width: 300px;
+        max-height: 150px;
+      }
+      .container-box .content p {
+        font-size: 1rem;
+      }
+      .label {
+        font-size: 1.2rem;
+      }
+      .mobile-see-more {
+        display: block !important;
+        margin: 1rem 0;
+        text-align: center;
+        color: #0056b3;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    @media (min-width: 601px) {
+      .mobile-see-more {
+        display: none !important;
+      }
+    }
+    </style>
+    
+    <script>
+    function myFunctionMangroveDescription(event) {
+      console.log('See more clicked - preventing all events');
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreMangrove').style.display = 'flex';
+      return false;
+    }
+    function closeMangroveSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreMangrove').style.display = 'none';
+    }
+    function myFunctionBinhaanDamDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreBinhaanDam').style.display = 'flex';
+      return false;
+    }
+    function closeBinhaanDamSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreBinhaanDam').style.display = 'none';
+    }
+    function myFunctionQPLDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreQPL').style.display = 'flex';
+      return false;
+    }
+    function closeQPLSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreQPL').style.display = 'none';
+    }
+  
+
+    </script>
+    
+    <!-- Scroll to Top Button for Mobile -->
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
+  });
+  scrollToTopBtn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+</script>
+
+<style>
+.destinations .container .container-box {
+  background: #52b116 !important;
+  border: 6px solid #ffffff!important;
+  box-shadow: 0 8px 32px 0 #52b116, 0 0 0 8px #52b116 !important;
+}
+</style>
+
+<style>
+.see-more-close-btn {
+  background: #2cda00 !important;
+  color: #000 !important;
+  border: 1.5px solid #ffffff !important;
+}
+</style>
+
+<style>
+
+</style>
+
+</body>
+</html>
