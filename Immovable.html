@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immovable</title>
+    <link rel="stylesheet" href="newstyle1.css">
+    <link rel="stylesheet" href="newStyle.css">
+    <link rel="stylesheet" href="popup.css"> <!-- Link to the new stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <style>
+    .destinations .container .container-box {
+      background: #888888 !important;
+      border: 6px solid #888888 !important;
+      box-shadow: 0 8px 32px 0 #888888cc, 0 0 0 8px #88888855 !important;
+    }
+    .place-popup {
+      background: #888888 !important;
+      border: 6px solid #888888 !important;
+      box-shadow: 0 0 32px 0 #888888cc, 0 0 0 8px #88888855 !important;
+    }
+    .destinations .container .container-box .heading img {
+      box-shadow: 0 8px 32px 0 #888888cc, 0 0 0 4px #88888855 !important;
+    }
+    .see-more-close-btn {
+      border: 1.5px solid #888888 !important;
+      color: #000 !important;
+      background: #e0e0e0 !important;
+    }
+    </style>
+</head>
+<body>
+    <!-- home section starts here  -->
+    <section class="home">
+        <div class="home-box">
+            <nav>
+                <div class="logo bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <img src="Logo.png" alt="Pagbilao Logo" class="pagbilao-logo">
+                    <h1>Welcome to Pagbilao</h1>
+                </div>
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <ul>
+                        <li onclick="myFunctionHOME()"><a href="#">home</a></li>
+                    
+                        
+                    </ul>
+                </div>
+             
+                 
+                </div>
+            </nav>
+
+           
+        </div>
+    </section>
+
+   
+    <!-- destinatons section starts here  -->
+    <section class="destinations">
+    <!-- home section ends here  -->
+  <br> <h1 class="label">Bigo Bridge </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="Bigo Bridge is a remarkable Spanish-era stone arch bridge in Barangay Bigo, built in the 1870s through forced labor or polo y servicio. Its solid foundation—made of basalt, lime, and honey—showcases the craftsmanship of the past, with adobe stones engraved with Roman numerals still visible today. Beyond connecting Pagbilao and Tayabas, it once supported local trade and travel that fueled economic growth. With moss-covered walls and a graceful arch over the river, Bigo Bridge remains not only historically significant but visually stunning—perfect for heritage walks or even a vintage-themed photoshoot."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Bigo Bridge.png" alt="Bigo Bridge " class="destination-img-animate"></div></p><br><strong><p> Bigo Bridge  </strong> <br> ----- <br><h6>Photo taken March 2022 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Nestled in the greenery of Sitio Imbargo, Barangay Bigo, <strong> Bigo Bridge </strong> is a 24-foot Spanish-era structure connecting Tayabas and Pagbilao. Built from adobe stones engraved with Roman numerals, and bonded with lime, basalt—and even honey (pulot)—it was completed through polo y servicio, the forced labor of Filipinos.
+Now veiled in moss and native plants like tibig and takip-asin, it stands quietly, blending into nature while guarding centuries of stories.
+<br> <br> 🌟 Fun Fact: In colonial times, churchgoers had to bring a stone to mass—or face 25 lashes. No stone, no salvation!
+<br> <br> 👻 Local Lore: People tell of glowing crosses, vanishing figures, and santelmo (fire spirits) drifting through the trees. Radios often go silent when crossing—locals just nod and say, "You are not the first."
+<br> <br></p>
+                   
+                                <br> <br> <a href="#" onclick="myFunctionBigoBridge()">Location: Bigo Bridge  <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionBigoDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+                <!-- Dedicated See More Popup for Iringan Falls -->
+                <div class="see-more-popup" id="seeMoreBigo" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeBigoSeeMore(event)">&times;</button>
+                    <h4><strong>More about Bigo Bridge </strong> </h4>
+
+<br> <Br> Built in 1856 during the Spanish colonial era,<strong> Bigo Bridge </strong> —locally known as Puente de Ibabang Bukal—is a stone arch bridge made from perfectly cut adobe stones, lime, and even honey. Once part of a crucial trade route connecting Pagbilao and Tayabas, it was constructed through polo y servicio (forced labor), and remains standing after more than 165 years.
+
+Surrounded by dense greenery and folklore, the bridge is rich in mystery. Locals speak of santelmo (fire spirits), shadow figures, and a glowing white cross that fades upon approach. Its moss-covered railings and Roman numeral-marked stones whisper tales of devotion and hardship—where villagers once had to bring stones to church or face 25 lashes.</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Bigo Bridge.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+ <br> <h1 class="label"> Calibuyboy Bridge </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="Built in the 1870s during the Spanish era through polo y servicio, Calibuyboy Bridge is an Important Cultural Property under RA 10066 and was mentioned in Juan Alvarez Guerra's travel journal. It connects Pagbilao, Tayabas, Sariaya, Bicol, and nearby areas—supporting trade, transport, and local livelihoods. Made of adobe, lime powder, and honey, its stone arch design blends naturally with the landscape and remains durable and functional to this day."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Calibuyboy Bridge.png" alt="Calibuyboy Bridge" class="destination-img-animate"></div></p><br><strong><p> Calibuyboy Bridge </strong> <br> ----- <br><h6>Photo taken November, 2021 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Just over 5 meters long,<strong> Calibuyboy Bridge </strong> along the Tayabas-Pagbilao road dates back to the 1870s Spanish era, built through polo y servicio (forced labor) using adobe and lime. Once part of the old Calle Real, it linked towns for trade and governance.
+Now overgrown and weathered, it still carries locals and goods—along with eerie tales of a pig-faced boy, a smoking tikbalang, and a white lady said to haunt the bridge at night.
+<br> <br> 🌟 Fun Fact: Spanish traveler and writer Juan Alvarez Guerra is believed to have crossed this bridge during his 1800s journey through the Philippines. He documented his travels in Viajes por Filipinas, offering vivid insights into colonial life—including stops in areas like Pagbilao and Tayabas.
+</p>
+                  
+                                <br> <br> <a href="#" onclick="myFunctionCalibuyboyBridge()">Location: Calibuyboy Bridge  <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionCalibuyboyDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreCalibuyboy" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeCalibuyboySeeMore(event)">&times;</button>
+                    <h4><strong>More about Calibuyboy Bridge </strong> </h4>
+<br> <br>Tucked quietly along the Tayabas-Pagbilao road, <strong> Calibuyboy Bridge </strong> may span just a little over five meters, but its historical weight stretches across centuries. Constructed in the 1870s during the Spanish colonial period, this modest stone bridge was built through polo y servicio—a system of forced labor imposed on Filipino men. Made from adobe blocks and lime powder, it was once a vital link in the Calle Real, the grand Spanish highway connecting coastal towns for governance, trade, and communication. Now partly overgrown by trees and tangled roots, the bridge still serves its purpose—silently ferrying local traders, residents, and occasional wanderers. From coconut-laden carts to whispering winds, Calibuyboy remains a conduit of both movement and memory.
+Yet, this heritage site is not without mystery. Locals speak of unsettling sightings—from a pig-faced boy to a cigar-smoking tikbalang, and a white lady said to drift silently across the bridge by moonlight. These stories have earned Calibuyboy a place in the town's rich folklore.
+Despite its deteriorating structure, narrow one-lane width, and nearby unfinished roadwork, Calibuyboy Bridge remains an important passage—both literal and symbolic</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Calibuyboy Bridge.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label"> Iyakin Bridge </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="Iyakin Bridge, built in the 1870s during the Spanish colonial era through polo y servicio (forced labor), is considered an Important Cultural Property under the National Cultural Heritage Act of 2009 (RA 10066). Strategically located along the trade route connecting Pagbilao, Tayabas, Sariaya, Bicol, and nearby towns, it has long served as a vital link for transporting goods and supporting local economies. Architecturally, the bridge features a durable stone arch made from adobe, molasses, and lime powder—materials sourced and crafted by Filipino laborers of the time. Its simple yet sturdy design remains functional today, blending naturally with the landscape and standing as a testament to both Filipino resilience and colonial-era engineering."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Iyakin Bridge.png" alt="Iyakin Bridge" class="destination-img-animate"></div></p><br><strong><p> Iyakin Bridge </strong> <br> ----- <br><h6>Photo taken <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Tucked between Tayabas and Pagbilao, <strong> Iyakin Bridge </strong> is a small 1870s Spanish-era structure built through polo y servicio. Once part of Calle Real, it's made of adobe, molasses, and lime, and still serves light vehicles today. Locals tell of Japanese troops, guerrilla hideouts, and the river's cries that inspired its name. With no lights and damaged signs, accidents persist—some blame poor visibility, others whisper of spirits like a white lady and a smoking tikbalang. Some historians even call it Puente de Juan, linking it to Spanish writer Juan Alvarez Guerra.
+<br> <br> 🌟 Fun Fact: Spanish traveler and writer Juan Alvarez Guerra is believed to have crossed this bridge during his 1800s journey through the Philippines. He documented his travels in Viajes por Filipinas, offering vivid insights into colonial life—including stops in areas like Pagbilao and Tayabas.
+</p>
+                    
+                                <br> <br> <a href="#" onclick="myFunctionIyakin()">Location: Iyakin Bridge  <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionIyakinDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreIyakin" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeIyakinSeeMore(event)">&times;</button>
+                    <h4><strong>More about Iyakin Bridge </strong> </h4>
+<br> <br> <strong> Iyakin Bridge </strong> , located in Sitio Pag-asa, Barangay Bukal, Pagbilao, Quezon, is a small yet historically rich Spanish-era structure built in the 1870s through polo y servicio (forced labor). It was part of the old Calle Real, the Spanish colonial road network that connected Tayabas, Pagbilao, and other nearby towns for trade and governance. Constructed from adobe stones, molasses, and lime powder, it remains in use today, quietly supporting light vehicles and local foot traffic over a shallow creek linked to the Iyakin River.
+
+Measuring roughly 14 feet long and 19 feet wide, the bridge sits at an elevation of 3.44 meters, surrounded by bamboo, mango trees, and thick vegetation. It blends naturally into the landscape, making it nearly unnoticeable to passersby. Though still in fair condition, its lack of lights, damaged signs, and overgrown surroundings have made it an accident-prone area—fueling both public safety concerns and ghost stories.
+
+Local legends surround the bridge: tales of a white lady, a giant smoking tikbalang, and eerie cries from the river are passed down among residents. Mrs. Leonides Ramos, a long-time local, shared how the bridge was used during Japanese occupation, with guerrillas hiding in the trees nearby. As a child, she crossed the bridge to trade goods like tapioca and fish—highlighting its role in community commerce. Today, it continues to serve traders and transporters from towns like Tayabas, Pagbilao, Sariaya, and even as far as Bicol and Manila.
+
+Some historians, including Mr. John Valdeavilla, refer to it as "Puente de Juan", linking it to Juan Alvarez Guerra, the Spanish writer who possibly passed this bridge during his journey in the 1800s, later documented in his book Viajes por Filipinas.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Iyakin Bridge.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label"> Tulay ng Salak </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The old bridge in Sitio Pulang Lupa holds deep socioeconomic and historical significance for Pagbilao. Once part of the former provincial road during the American colonial period, it served as a crucial route linking Quezon Province to the Bicol Region. Though its exact construction date is unknown, it is believed to be connected to the Anos Bridge built in 1911. This modest structure helped farmers reduce travel time and costs when transporting goods and provided easier access for students and workers commuting between barangays. Beyond function, the bridge fostered social connection between communities—especially between Barangays Silangang and Kanlurang Malicboy—solidifying its role as both a physical and cultural link across time. "
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Tulay ng Salak.png" alt="Tulay ng Salak" class="destination-img-animate"></div></p><br><strong><p> Tulay ng Salak</strong> <br> ----- <br><h6>Photo taken <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Tucked in Sitio Pulang Lupa, Barangay Silangang Malicboy, the <strong> Tulay ng Salak </strong> may be small—but it once carried big stories. Measuring just 8.94 meters long, this modest concrete beam bridge was built during the American colonial era and once served as a vital connection between Quezon Province and the Bicol Region. Farmers, students, and vendors relied on it daily to access nearby communities, schools, and markets. Over the years, it became part of local lore—stories of a ghostly boy in white and buried Spanish treasure still echo around it. Though time and tractors have cracked its frame, it continues to support light vehicles and heavy memories.
+<br> <br> 🌟 Fun Fact: Locals say a tractor once smashed its old railings. And when the rains hit hard? This small bridge becomes the only thread tying two barangays together.
+</p>
+                   
+                                <br> <br> <a href="#" onclick="myFunctionTulayngSalak()">Location: Tulay ng Salak  <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionSalakDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreSalak" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeSalakSeeMore(event)">&times;</button>
+                    <h4><strong>More about Tulay ng Salak </strong> </h4>
+<br> <br> <strong> Tulay ng Salak </strong> , located in Sitio Pulang Lupa, Barangay Silangang Malicboy, is a small yet historically important concrete beam bridge built during the American colonial period. Measuring just 8.94 meters long and 2.29 meters wide, it once served as a key part of the old Provincial Road of Quezon, linking Northern Quezon to the Bicol Region. The bridge played a vital role in transporting goods and providing access for farmers and students, especially during heavy rains. Though now worn and with damaged, low barriers, it remains a symbol of the area's past connectivity. Its deck was later elevated with gravel to align with nearby roads, and despite its modest size, Tulay ng Salak continues to be remembered as a lifeline for communities on both sides.
+
+
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Tulay ng Salak.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label"> Baywalk Daungan </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Pantalan ng Pagbilao holds deep historical and cultural value as the town's first fish port, boosting local trade and supporting the fishing industry not just in Pagbilao but in neighboring towns as well. It has long been a center of economic activity, helping fisherfolk earn a living and contributing to the town's growing economy. Socially, it served not only as a hub for daily conversations and trade but also as a venue for gatherings and community events. Politically, it has hosted various meetings and been visited by prominent local leaders. Spiritually, it becomes a sacred space every August 29 during the Indak ng Parangal kay Santa Catalina, with a fluvial parade and blessing held at the port as part of the Araw ng Pagbilao celebrations. "
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="BaywalkDaungan.png" alt="Baywalk Daungan" class="destination-img-animate"></div></p><br><strong><p> Baywalk Daungan  </strong> <br> ----- <br><h6>Photo taken 2021 <br> by Errol Paguio </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Located in front of the Barangay Hall of Daungan, the Pantalan ng Pagbilao is more than a port—it's a lifeline of tradition and trade. Measuring 103 meters long and 22 meters wide, this concrete dock once began as a simple floating balsa in the 1950s. Today, it bustles with fishermen, vendors, and locals lounging by its baywalk under ornamental palms. From daily fish hauls to fluvial parades for Sta. Catalina, the port has long connected Pagbilao to its islands and identity.
+<br> <br> 🌟 Fun Fact: It used to rise and fall with the tide—and now hosts everything from sea blessings to spooky sightings and birthday celebrations!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionBaywalkDaungan()">Location: Baywalk Daungan   <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionBaywalkDaunganDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreBaywalkDaungan" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeBaywalkDaunganSeeMore(event)">&times;</button>
+                    <h4><strong>More about Baywalk Daungan  </strong> </h4>
+<br> <br> Located just in front of the Barangay Hall of Daungan, the Pantalan ng Pagbilao spans 103 meters long and 22 meters wide, made of concrete with tiled floors, wooden stalls, and green-roofed shelters. Once a floating balsa raft built in the 1950s under the leadership of Counselor Emilio Gloria, the port served as a lifeline for traders and bangkeros traveling between the mainland and coastal barangays like Ilayang Polo and Ibabang Polo. Over time, land was filled in, and through efforts by leaders like Congressman Manuel Enverga and Mayor Romar Portes, the port was fully concretized and beautified with benches, lights, palm trees, and CCTV. Today, it remains a vital hub for fishing, trading, and community life, rich in both history and local spirit.
+
+
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="BaywalkDaungan.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="images(2).jpg" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="images(4).jpg" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label"> Palsabangon Bridge </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="Palsabangon Bridge, a vital structure in Brgy. Ibabang Palsabangon, holds both historical and social significance. On Christmas Day 1941, it played a dramatic role when Filipino and American defenders destroyed the original wooden bridge to slow down the Japanese advance toward Tayabas, then the provincial capital. Today, it remains crucial for socioeconomic activity, connecting Pagbilao, Lucena, Manila, Bicol, and neighboring areas for trade and transport. Aesthetically, it offers a scenic view of an old railroad bridge nearby and distant mountain ranges, making it a visual treat for travelers. Socially, it serves as a passageway for people from all walks of life, facilitating movement between northern and southern Luzon."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Palsabangon Bridge.png" alt="Palsabangon Bridge" class="destination-img-animate"></div></p><br><strong><p> Palsabangon Bridge  </strong> <br> ----- <br><h6>Photo taken January of 2022 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Spanning 60 meters across Brgy. Ibabang Palsabangon along the highway to Bicol, the <strong> Palsabangon Bridge </strong> may look simple, but its history runs deep. This girder-type concrete and steel bridge is an essential route for travelers and traders heading south. Beyond its utility, it's a silent witness to a heroic moment in WWII—when American troops blew up its wooden predecessor to delay advancing Japanese forces and protect Filipino soldiers.
+<br> <br> 🌟 Fun Fact: On Christmas Day, 1941, under enemy fire, U.S. forces dynamited the bridge as Colonel Cordero's last troops made their retreat. The blast lit up the night sky, a memory still vivid to then-young Tiburcio Rubico. In later years, the rebuilt bridge became a space for childhood fun—kids sliding on wooden planks, spying on bathers, or hauling bananas to the market. A battleground turned into a playground of memories!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionPalsabangon()">Location: Palsabangon Bridge   <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionPalsabangonBridgeDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMorePalsabangonBridge" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closePalsabangonBridgeSeeMore(event)">&times;</button>
+                    <h4><strong>More about Palsabangon Bridge  </strong> </h4>
+<br> <br> <strong> Palsabangon Bridge </strong> , located in Brgy. Ibabang Palsabangon, is a 60-meter-long girder-type concrete and steel bridge that forms part of the national highway connecting Quezon Province to the Bicol Region. First appearing about three kilometers after the Tambak Bridge, it was originally built using timber wood (traviesa) during the World War II era and later reinforced in 1998 as a permanent concrete structure. With sidewalks, white-painted parapets, and built-in drainage holes, the bridge remains a vital artery for transporting goods and commuters. While the view may be modest—except for a glimpse of the old railroad bridge downstream—its role in linking communities, economies, and wartime history makes it a crucial piece of infrastructure in the region.
+
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Palsabangon Bridge.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="Palsabangon Bridge1.png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src="Palsabangon Rivers.png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label"> Portes Brother's Cockpit Arena </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Portes Brother's Cockpit Arena has long served as a social hub where people from all walks of life gather weekly, fostering community bonds that continued even after the pandemic. Economically, it provided livelihoods for many Pagbilaoins, thanks to the legalization of cockfighting in the Philippines. Historically, cockfighting dates back to the Spanish era but was formally institutionalized under President Ferdinand Marcos through the Cockfighting Law of 1974, making this the first cockpit arena in Pagbilao. Politically, it has drawn notable figures from Quezon, Manila, Laguna, and Batangas—highlighting its local significance, especially with its ties to the influential Portes family."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Cockpit.png" alt="Portes Brother's Cockpit Arena" class="destination-img-animate"></div></p><br><strong><p> Portes Brother's Cockpit Arena  </strong> <br> ----- <br><h6>Photo taken October of 2021 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">The <strong>Portes Brother's Cockpit Arena </strong> , built in 1972 along the Tayabas–Pagbilao Road, is a cultural landmark once alive with cheers, bets, and tradition. Originally planned as a beer house, it became a cockpit during Martial Law, evolving from bamboo and anahaw into a steel-roofed arena. With four-tier wooden bleachers and a 6×6 meter roweda, it was a hub for local sabong until it closed in 2020 due to the pandemic.
+<br> <br> 🌟 Fun Fact: The arena had no VIP section—seating was strictly first come, first served. Regulars knew to come early to secure the best view, and locals say you could hear the roar of a winning match echoing all the way to the highway!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionCockpit()">Location: Portes Brother's Cockpit Arena   <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionCockpitDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreCockpit" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeCockpitSeeMore(event)">&times;</button>
+                    <h4><strong>More about Portes Brother's Cockpit Arena  </strong> </h4>
+<br> <br> <strong>Portes Brother's Cockpit Arena </strong> , located along the Tayabas–Pagbilao Road, is a cultural structure once known for hosting local cockfights. Enclosed by a bamboo fence and topped with a red galvanized roof, it features steel trusses, wooden bleachers, and a 6×6 meter roweda (fighting stage). Inside, aged tarpaulins, dusty interiors, and a grilled red ulutan area reflect years of vibrant activity and recent silence.
+Originally intended as a beer house, the arena was built in 1972 by Joaquinito and Romeo "Romar" Portes but pivoted to cockfighting due to Martial Law. From its humble bamboo-and-anahaw start, it saw renovations in 1976, additions in the '80s and '90s, and storm damage repairs in 2014. It closed in 2020 due to the pandemic and remains inactive.
+
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Cockpit.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label"> Pagbilao Municipal Building  </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Pagbilao Municipal Building, originally built in 1927 during the American era, stands as a symbol of the town's leadership, governance, and historical milestones. Initially a single structure, it has expanded to include vital offices such as the BIR, DSWD, and Assessor's Office—contributing to Pagbilao's socioeconomic development and public service delivery. It also houses the HR office, which provides employment opportunities to residents. As the center of local governance, it welcomes leaders, staff, and everyday citizens alike, serving as a hub for public transactions, political activities, and social interaction. Notably, it has hosted national figures including former President Gloria Macapagal-Arroyo. Aesthetically, its original concrete design remains intact, a testament to its strong foundation and enduring significance in Pagbilao's civic and cultural life."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Municipal of Pagbilao.png" alt="Pagbilao Municipal Building " class="destination-img-animate"></div></p><br><strong><p> Pagbilao Municipal Building  </strong> <br> ----- <br><h6>Photo taken March of 2022 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Located along Bonifacio Street across from Pagbilao Park, the <strong> Pagbilao Municipal Building </strong> has stood as the town's civic heart since 1927. Originally a modest concrete structure, it has grown to house key offices like the BIR, DSWD, COMELEC, and the Mayor's Office, with added buildings and a covered court built under various local leaders. Despite natural disasters and expansions, its original foundation remains intact. Over the years, it has hosted national leaders, local events, and countless milestones—symbolizing Pagbilao's enduring governance and community pride.
+<br> <br> 🌟 Fun Fact: In 2002, then-Senator Gloria Macapagal-Arroyo made a surprise visit—so low-key that many didn't even recognize her at first!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionMunicipal()">Location: Pagbilao Municipal Building <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionMunicipalDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreMunicipal" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeMunicipalSeeMore(event)">&times;</button>
+                    <h4><strong>More about Pagbilao Municipal Building   </strong> </h4>
+<br> <br> The <strong> Pagbilao Municipal Building </strong> , located along Bonifacio Street in front of Pagbilao Park and near key landmarks like the Dakilang Kawal Monument and St. Catherine of Alexandria Parish, has stood as the town's civic center since 1927, under the leadership of Hon. Severino R. Martinez. The concrete structure has expanded over the decades, housing government offices such as the BIR, DSWD, COMELEC, and the Mayor's Office. Beside it are additional facilities like the covered court, Admin Building, fire station, and Rural Health Unit. Notable features include murals of past mayors, award plaques, and a mini garden with a Manuel L. Quezon statue and flagpoles. Renovations under various leaders—most recently Mayor Shierre Ann Portes-Palicpic—have modernized the building while retaining its historical essence. It remains a cornerstone of Pagbilao's local governance and public service.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Municipal of Pagbilao.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label"> Pamilihang Bayan ng Pagbilao  </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Pamilihang Bayan ng Pagbilao, built in 1916, is the town's first public market and one of the few structures that survived World War II. It remains a key hub for local livelihood, offering fresh goods and daily necessities while supporting vendors and small businesses. Known for its cleanliness and eco-friendly practices, it also serves as a space for political campaigns, community events, and even religious blessings for new stalls—making it both a functional and culturally meaningful landmark in Pagbilao."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Pagbilao Public Market.png" alt="Pamilihang Bayan ng Pagbilao " class="destination-img-animate"></div></p><br><strong><p> Pamilihang Bayan ng Pagbilao </strong> <br> ----- <br><h6>Photo taken January 29, 2022 <br> by LGU Tourism Pagbilao </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">The <strong> Pamilihang Bayan ng Pagbilao </strong> , located in Brgy. Del Carmen, is a historic public market established in 1916 that serves as a vital center for commerce, community interaction, and local livelihood in Pagbilao, Quezon. Spanning over 4,600 square meters with 120 stalls for meat, fish, vegetables, fruits, and grocery goods, the market not only provides daily necessities but also reflects the cultural and economic heartbeat of the town.
+<br> <br> 🌟 Fun Fact: Despite being over a century old and surviving the 1945 bombing of Pagbilao, the public market remained standing and operational—making it one of the few structures that withstood World War II in the town!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionMarket()">Location: Pamilihang Bayan ng Pagbilao <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionMarketDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreMarket" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeMarketSeeMore(event)">&times;</button>
+                    <h4><strong>More about Pamilihang Bayan ng Pagbilao </strong> </h4>
+<br> <br> The <strong> Pamilihang Bayan ng Pagbilao </strong> , located in Brgy. Del Carmen, is one of the oldest public markets in Quezon Province, originally built in 1916 under Municipal President Jose Abastillas. Spanning 0.8372 hectares, this market serves as the commercial heartbeat of Pagbilao, housing 120 stalls for groceries, meat, fish, fruits, and vegetables. Made of concrete with white tiled flooring and a red galvanized iron roof, it is designed for functionality and cleanliness, supported by public restrooms, CCTV systems, and adjacent civic facilities like the PAMARVA office, police outpost, covered court, and a nearby jeepney terminal. The market is not only a center for daily trade but also a venue for social events, weekly tiangge, and even medical and civic programs such as DOLE payouts and vaccination drives.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Pagbilao Public Market.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label">  Home Economics Hall ( H.E )  </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Home Economics Hall of Pagbilao Central Elementary School holds deep social significance as a place of shared memories among students, teachers, and stakeholders. It was once the heart of hands-on learning, where school events, practical lessons, and personal milestones took place. Politically, the hall served as a polling precinct during national and local elections, playing a role in the democratic process of the community. It was even visited by Mayor Shierre Ann Portes-Palicpic during a school celebration as part of efforts toward heritage preservation. Socioeconomically, its location near local vendors allowed nearby residents to benefit from the steady foot traffic of students and faculty, making it a modest but impactful contributor to local livelihood."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="HE.png" alt="Home Economics Hall ( H.E ) " class="destination-img-animate"></div></p><br><strong><p> Home Economics Hall ( H.E )  </strong> <br> ----- <br><h6>Photo taken September of 2021 <br> by Marielle C. Montana </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">The <strong> Home Economics (HE) Hall </strong> of Pagbilao Central Elementary School, built around 1922, was once a vibrant venue for classes, school events, and even local elections. With its capiz shell windows, wood-concrete flooring, and multiple rooms, it's now mostly used for storage. Despite its quiet state today, the hall is remembered not only for its educational role but also for its ghost stories that still echo through the years.
+<br> <br> 🌟 Fun Fact: Students once played hide-and-seek in the HE Hall's underground—until ghostly noises and strange shadows sent them running!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionHE()">Location: Home Economics ( H.E ) <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionHEDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreHE" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeHESeeMore(event)">&times;</button>
+                    <h4><strong>More about Home Economics ( H.E )  </strong> </h4>
+<br> <br>The <strong> Home Economics (HE) Hall </strong> of Pagbilao Central Elementary School, built around 1922, is located just behind the Supervisor's Office and across from the Grade 6 classrooms. It features traditional capiz shell windows with wooden frames, ten doors including comfort rooms and storage areas, and a mix of wooden and concrete flooring. The structure, though aged, has been well-preserved through regular repainting and repairs, staying true to its original design. Originally used for Home Economics classes and hands-on learning activities, it became a space where generations of students practiced skills in cooking, sewing, and household management. Over time, added security features like window grills were donated by stakeholders. Although now used mostly for storage, the HE Hall remains a nostalgic part of the campus—both for its educational purpose and for the ghost stories that linger in student memory.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="HE.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label">   Marcos Type Prefabricated Building  </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Marcos-Type Prefab Building holds historical significance as it follows a design introduced during the Marcos administration to address the lack of classrooms nationwide. Architecturally distinct, its structure stands out from modern classrooms and is now rare in Pagbilao. Socially, it has served as a second home to both teachers and students from various backgrounds, nurturing unity through education. Economically, it provides livelihood to educators whose work sustains their families. The building also reflects socio-political support, with assistance from the local government through school project funding and student scholarships. Spiritually, it embraces diversity by teaching religion with fairness and respect, fostering a deeper understanding of different beliefs within the community."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Marcos.png" alt=" Marcos Type Prefabricated Building " class="destination-img-animate"></div></p><br><strong><p>  Marcos Type Prefabricated Building  </strong> <br> ----- <br><h6>Photo taken November 8, 2021 <br> by Monika M. Reyes </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description"> Nestled behind the mini park of Pagbilao East Elementary School, the <strong>Prefabricated Marcos Type Building</strong> is known for its colorful murals and rich history. Built in the 1970s during the Marcos era to address classroom shortages, the five-room structure has served many roles—from classrooms to event spaces. Despite repairs and ghost stories, it still hosts Grade 4 classes today, though demolition plans are underway.
+<br> <br> 🌟 Fun Fact: Each classroom is named after a gemstone—Crystal, Ruby, Diamond, Sapphire, and Gold—adding a sparkle of identity to this historic Marcos-era hall!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionMarcos()">Location: Marcos Type Prefabricated Building <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionMarcosDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreMarcos" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeMarcosSeeMore(event)">&times;</button>
+                    <h4><strong>More about Marcos Type Prefabricated Building  </strong> </h4>
+<br> <br>The Prefabricated Marcos Type Building at Pagbilao East Elementary School stands behind the mini park, distinguished by hand-painted murals of nature, maps, animals, and school life that reflect a lively learning atmosphere. Surrounded by trees like narra and mango, the five-classroom building features sky blue and yellow-green walls, steel windows and doors, red roofing, and a vibrant garden with flower boxes and outdoor seating. Built around the 1970s during the Marcos administration, it was part of a nationwide initiative to address classroom shortages. Designed for practicality, the structure originally included foldable wooden partitions to convert rooms into a larger space. Over the years, the building has been renovated with new concrete walls, fresh paint, and roof repairs following typhoon damage. Now home to Grade 4 classrooms, it remains a lasting symbol of the educational reforms of its time.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Marcos.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label"> Saint Anne Parish and Diocesan Shrine  </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Saint Anne Parish and Diocesan Shrine holds deep spiritual value as a sacred place dedicated to Saint Anne, attracting a growing number of devotees who believe in her miraculous intercession. Since its humble beginnings as an ermita in 1908, it has stood witness to local history, including events before, during, and after World War II—rebuilt each time it was destroyed by typhoons, termites, or war. Beyond its religious functions like Masses, baptisms, and weddings, the shrine fosters a strong sense of community and faith among Pagbilao's Roman Catholics. It even drew national attention when former President Gloria Macapagal-Arroyo visited during its 50th parish anniversary in 2008. Architecturally, the shrine is admired for its artistic stained-glass windows, religious imagery, and peaceful atmosphere—designed to connect people with the divine."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="St.Anne.png" alt=" Saint Anne Parish and Diocesan Shrine " class="destination-img-animate"></div></p><br><strong><p>  Saint Anne Parish and Diocesan Shrine  </strong> <br> ----- <br><h6>Photo taken  <br> by LGU Tourism Pagbilao  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description"> The <strong> Saint Anne Parish and Diocesan Shrine </strong> in Silangang Malicboy, Pagbilao, features a rectangular structure with a vibrant stained-glass facade honoring Saint Anne's role as a mother. Inside are the nave, altar, Candle Park, baptistery, and a unique five-level bell tower. Originating from a small ermita destroyed in 1926, the church has been rebuilt through the years, surviving war, typhoons, and termite damage. Declared a parish in 1958 and a diocesan shrine in 2000, it remains a spiritual center hosting sacraments, healing Masses, and community programs led by clergy and youth groups. Though altered, it stands as a testament to the faith and resilience of Pagbilao's Catholic community.
+<br> <br> 🌟 Fun Fact: The bell tower doesn't just hold a bell—it also includes a storeroom, a baptistery, and a steel spiral staircase connecting its five levels!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionStAnne()">Location: Saint Anne Parish and Diocesan Shrine<i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionStAnneDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreStAnne" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeStAnneSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> Saint Anne Parish and Diocesan Shrine  </strong> </h4>
+<br> <br>The <strong> Saint Anne Parish and Diocesan Shrine </strong> in Silangang Malicboy, Pagbilao, is a rectangular church known for its vibrant stained-glass facade depicting Saint Anne's motherhood. Inside, it features a traditional Catholic layout with a nave, sanctuary, altar, Candle Park, baptistery, and a five-level bell tower accessible via a steel spiral staircase. The church is adorned with religious artworks, Stations of the Cross, and symbolic elements such as a crucifix, tabernacle, and baptismal font set in a river-like rock landscape. Built on elevated ground to avoid flooding, the shrine traces its roots to several early ermitas (chapels), frequently rebuilt due to typhoons and termites. The current structure began construction in 1960 under Bishop Alfredo Obviar and was blessed in 1983. Renovations over time added key features like the Candle Park, Evangelization Hall, and Bell Tower, making the shrine both a religious center and a cultural landmark in Pagbilao.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="St.Anne.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+<br> <h1 class="label"> St. Catherine of Alexandria Parish  </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="St. Catherine of Alexandria Parish is a spiritual center for Pagbilao, hosting Masses, weddings, baptisms, and other rites that strengthen community faith. Built in 1688 and rebuilt after WWII bombings, it stands as a symbol of resilience. The church features historic and artistic elements, including a silver tabernacle and an altar inspired by Papag at Bilao, reflecting local identity. Its bell tower, housing four of Quezon's oldest bells, and annual feast celebrations continue to unite devotees in prayer, culture, and tradition."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="St.Catherine.png" alt=" St. Catherine of Alexandria Parish " class="destination-img-animate"></div></p><br><strong><p>  St. Catherine of Alexandria Parish  </strong> <br> ----- <br><h6>Photo taken January of 2022  <br> by LGU Tourism Pagbilao  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description"> Located across the Municipal Hall in Pagbilao, Quezon, the <strong>St. Catherine of Alexandria Parish</strong> is a historic symbol of faith and culture. Originally built in 1688 and relocated in 1730, the cross-shaped church features adobe walls, a 40-foot bell tower with some of Quezon's oldest bells, and a retablo honoring Christ, Mary, and St. Catherine. The altar, inspired by Papag at Bilao by Pablito Glodoviza, reflects the town's heritage. Surviving wars and natural decay, it remains a hub for religious and cultural events like the patronal feast and Holy Week's Via Crucis.
+<br> <br> 🌟 Fun Fact: Among the church's four bells is one dated 1784, considered one of the oldest existing church bells in the entire province of Quezon!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionStCatherine()">Location: St. Catherine of Alexandria Parish <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionStCatherineDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreStCatherine" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeStCatherineSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> St. Catherine of Alexandria Parish  </strong> </h4>
+<br> <br>Located in the heart of Pagbilao across the Municipal Hall, the <strong> St. Catherine of Alexandria Parish </strong> is a centuries-old church known for its cross-shaped layout, historic adobe architecture, and 40-foot bell tower housing four bells—one of which dates back to 1784. The altar features a retablo with statues of Christ, Mama Mary, and St. Catherine, all set under intricately designed ceilings and stained-glass windows. Richly adorned with religious artworks and Stations of the Cross, the church also has a Baptismal Font, a Blessed Sacrament chapel inspired by Pagbilao's identity, and a garden for reflection. Despite surviving war bombings and natural decay, it remains a spiritual and cultural hub, regularly hosting mass, sacraments, and local religious events.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="St.Catherine.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>        
+
+<br> <h1 class="label"> Pagbilao Old Cemetery </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="Pagbilao Old Cemetery, established in 1912, is the town's oldest burial ground and final resting place of notable public servants and generations of PagbilaoWins. Spiritually, it is a sacred space where families bid farewell to loved ones through prayers and rituals. Socially, it serves as a yearly gathering site, especially during All Saints' and All Souls' Day. Economically, the cemetery sustains itself through lot rentals, benefitting both the church and local workers such as caretakers and prayer leaders. Aesthetically, its aging gravestones, statues, and mausoleums reflect the craftsmanship and wealth of earlier times, offering a glimpse into the town's artistic heritage. Scientifically, it has also been used—when permitted—for the study of cadavers in aid of research and forensic investigation."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Old Cementery.png" alt=" Pagbilao Old Cemetery " class="destination-img-animate"></div></p><br><strong><p>  Pagbilao Old Cemetery  </strong> <br> ----- <br><h6>Photo taken 2021  <br> by LGU Tourism Pagbilao  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Nestled between Barangays Mapagong and Castillo, the <strong> Pagbilao Old Cemetery </strong> spans around three hectares and serves as the final resting place for many of the town's notable citizens. Donated in 1912 by Mayor Segundo Martinez, the once-swampy land became Pagbilao's first public cemetery. Though now facing neglect and informal use, it still hosts annual religious events and remains a vital historical and spiritual landmark.
+<br> <br> 🌟 Fun Fact: The cemetery houses a rare three-layered apartment-style tomb—one of the most unique burial structures in Quezon—attracting curious visitors, especially during ghost-hunting season!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionCementery()">Location: Pagbilao Old Cemetery <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionCementeryDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreCementery" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeCementerySeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> Pagbilao Old Cemetery  </strong> </h4>
+<br> <br><strong> Pagbilao Old Cemetery </strong>, covering around three hectares, lies between Sitio Pulong Niyugan in Brgy. Castillo and Brgy. Mapagong, with its main entrance along the Pan-Philippine Highway near the old Digitel building. With no formal signage or gate, the landmark is the yellowish sepulcher of the Pornella-Luce family. The cemetery is marked by overgrown grass, Indian almond trees, and a mix of grave styles—ranging from grand angel statues to simple rectangular tombs. A unique three-layered apartment-style tomb stands out among the weathered graves. Notably, it is the final resting place of prominent figures like Mayors Rosauro Radovan, Cesar Merto, Trinidad Alvarez, and land donor Segundo Martinez.
+Originally a swamp, the land was donated in 1912 by Mayor Martinez for public use. Though the site was eventually closed after the construction of a new cemetery in 1891, it continued to be used for burials. November remains the busiest time as families clean and visit tombs, while abandoned graves are moved to a mass grave. Managed by appointed leaders from the parish of St. Catherine of Alexandria, the cemetery has been under the care of several community heads, with Engr. Dante Lagrama currently overseeing its maintenance.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Old Cementery.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>        
+
+<br> <h1 class="label"> Bukal ng Itang </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="Bukal ng Itang holds historical value as it is believed to have existed since the Spanish colonial era, qualifying it as an Important Cultural Property under the National Cultural Heritage Act of 2009 (RA No. 10066). Socially, it has long served as a vital communal water source where locals gather, especially during shortages, fostering strong neighborhood connections. Aesthetically, the well is admired for its unique blue-green, glassy hue—made more vivid during the rainy season—making it a visually iconic and culturally cherished site in Barangay Antipolo."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Bukal ng Itang1.png" alt=" Bukal ng Itang " class="destination-img-animate"></div></p><br><strong><p>  Bukal ng Itang  </strong> <br> ----- <br><h6>Photo taken October 18, 2021  <br> by Rey Ann Magat  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Nestled in the muddy fields of Barangay Antipolo, <strong> Bukal ng Itang </strong> is a spring well believed to date back to the Spanish era. Named after the man who first dug it, the well has long provided clean water for drinking, bathing, and laundry. Despite its simple structure, it remains a valuable and well-preserved source of water, cared for by the barangay and remembered for its cultural and practical importance.
+<br> <br> 🌟 Fun Fact: Before school, kids in the 1970s and 1980s would bathe in the well—leaving their water containers behind in the morning and picking them up again after class!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionBukalngItang()">Location: Bukal ng Itang <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionBukalngItangDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreBukalngItang" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeBukalngItangSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> Bukal ng Itang  </strong> </h4>
+<br> <br><strong> Bukal ng Itang </strong>, a humble spring-fed well located amidst the rice fields and muddy terrain of Barangay Antipolo, Pagbilao, stands as a vital part of the community's daily life and heritage. With a mouth measuring about 0.61 meters in diameter and a depth of 2.13 meters, its waters shimmer in a clear bluish-green hue reminiscent of ocean glass, drawing attention not just for utility but also for its natural charm. Surrounded by grassy patches and trees, it sits quietly in the rural landscape, not far from a rice field. Historically, the well is believed to date back to the Spanish era and is named after a local man called "Itang," who is said to have dug it. The Sangguniang Barangay of Antipolo constructed a concrete culvert around it in 1998 to improve its access and durability. Over the years, Bukal ng Itang has served as the primary water source for many households, especially during times before piped water systems became available. Locals used it for drinking, bathing, and laundry. According to Brgy. Councilor Fernando Bongcahis, it was once surrounded by a forest-like environment and was believed to be guarded by a mythical "nuno," a spirit in Filipino folklore said to curse those who disrespect its space. Many residents recall experiencing illnesses they believed were due to disturbing this spirit. Children, including Bongcahis himself, fondly remember bathing in the spring before school, leaving their water containers behind to collect later in the day. Though modern amenities have changed how water is sourced, the well continues to serve those in need and is maintained as a symbol of local resilience, folklore, and environmental harmony.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Bukal ng Itang.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="Bukal ng Itang1.png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>        
+
+<br> <h1 class="label"> Goyma Well </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Sta. Catalina Well, built during the Spanish era and used by Japanese soldiers in WWII, is the largest and only well in Pagbilao's town proper. Known for its clear, spring-fed water, it has long served nearby communities like Sitio Dapian. Once a social hub for laundry and gathering, it now sits on land eyed for a future barangay hall. Maintained by local officials, it remains a vital historical and communal landmark."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Goyma Well.png" alt=" Goyma Well " class="destination-img-animate"></div></p><br><strong><p>  Goyma Well  </strong> <br> ----- <br><h6>Photo taken October 07,2021  <br> by Lourdes Ignacio- Minge  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Located beside the bustling Agora Market in Barangay Sta. Catalina, Pagbilao, this heritage well—built in 1870 by Chinese settler Go Inco Ma—is the town proper's largest and oldest. At 20 feet deep and 540 cm in circumference, it has served as a vital spring-fed water source from the Spanish period through the Japanese occupation and into the present. Surrounded by ferns, fruit trees, and local herbs, it remains a symbol of survival, community, and multicultural history. Still maintained by the barangay, it stands near the future site of the Sta. Catalina barangay hall.
+<br> <br> 🌟 Fun Fact: During the Japanese occupation, even soldiers drank from this well—proof that water, like history, connects even the most unlikely people across time!!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionGoymaWell()">Location: Goyma Well<i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionGoymaWellDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreGoymaWell" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeGoymaWellSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> Goyma Well  </strong> </h4>
+<br> <br>Located in Barangay Sta. Catalina, Pagbilao, this heritage well—constructed in 1870 during the Spanish colonial period—is made of riffraff adobe stones and concrete, with a depth of 20 feet and a circumference of 540 cm. Originally built by Chinese settler Go Inco Ma for his family's water needs such as drinking, washing, and laundry, the well has been preserved across generations, with the current caretaker being the fourth-generation descendant from the Goyma family line. Fed by an underground spring, the water remains remarkably clear, often likened to glassy ocean water. An arch covers the well for user safety, and its surroundings feature native plants like tawa-tawa (a folk remedy for dengue), gabi, and fruit-bearing trees including citrus, banana, and papaya. Occupying an 800-square-meter lot beside Cajes Ice Cream and across Agora Pagbilao, the well remains a historical and communal feature within the vibrant market area.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Goyma Well.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>   
+
+
+<br> <h1 class="label"> EME Road Pagbilao Zigzag Road </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The EME Road is a scenic yet dangerous landmark in the Quezon Protected Landscape, known for its sharp curves and steep slopes. It holds aesthetic value for its winding "M" shape and historical importance as a route used by Japanese forces during WWII. The road was improved under President Ferdinand Marcos in 1969 and now connects Quezon to Bicol. Socially, it serves as a meeting spot for bikers and tourists. Economically, a toll system helps fund the area's upkeep. A "magnet zone" where cars seem to roll uphill adds scientific intrigue, while ghost stories give it a mysterious, spiritual reputation."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Eme Road.png" alt=" EME Road Pagbilao Zigzag Road " class="destination-img-animate"></div></p><br><strong><p>  EME Road <br> Pagbilao Zigzag Road  </strong> <br> ----- <br><h6>  Photo taken February of 2022 <br> by LGU Tourism Pagbilao  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description"><strong>EME Road </strong>, nestled in the lush Quezon Protected Landscape in Brgy. Silangang Malicboy, Pagbilao, is a 7-kilometer mountain road famed for its zigzag, M-shaped path connecting Manila to Bicol. Built in 1929 under American engineer Julius Vogelgesang and enhanced during the Marcos era, it's both a scenic route and cultural icon. With its steep slopes, sharp "siko" curves, and hairpin turns, it's known locally as Bitukang Manok (chicken intestines) and steeped in ghost stories and crash legends. From wartime history to film shoots and motorcycle rides, EME Road is a thrilling passage through landscape and lore.
+<br> <br> 🌟 Fun Fact: Drivers report a "magnet zone" where cars roll uphill in neutral—science or sorcery, it's a must-stop for the curious!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionEmeRoad()">Location: EME Road Pagbilao Zigzag Road <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionEmeRoadDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreEmeRoad" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeEmeRoadSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> EME Road <br> Pagbilao Zigzag Road  </strong> </h4>
+<br> <br><strong> The EME Road </strong>, or Old Zigzag Road, is a 7-kilometer stretch nestled within the Quezon Protected Landscape in Barangay Silangang Malicboy, Pagbilao, Quezon. Measuring 15 meters wide and constructed with a mix of asphalt and cement, this winding mountain pass connects Northern and Southern Luzon through the Pan-Philippine Highway. Famous for its three sharp curves known as "siko," the road features colorful safety barriers and concrete signage honoring President Ferdinand Marcos and Anacleto P. Alcala. A scenic viewpoint near the second curve, complete with concrete stairs, provides a popular photo spot for travelers. Despite its narrow and often slippery path, especially during rains, the road remains well-patrolled by volunteer aides and offers a lush, forested environment with cool mountain air. Known locally as Bitukang Manok for its intestine-like shape, it presents both a challenging and scenic journey for drivers.
+Historically, the EME Road was discovered by Alfredo Castro around 1904–1905 and constructed in 1929 under the direction of American engineer Julius Vogelgesang during President Manuel L. Quezon's administration. It was completed in 1935 after six years and later improved in 1969 during the Marcos era. Initially perilous due to unprotected cliffs, the road has since been reinforced with safety features. It played a significant role during World War II, serving as a supply route for Japanese forces following their landing at Lamon Bay in Atimonan. In recent years, natural disasters such as Typhoon Mario in 2014 and heavy rains in 2018 caused damage and prompted restoration efforts. Today, the EME Road is not only an essential transportation route but also a tourist attraction and cultural icon, beloved for its natural beauty and steeped in both history and myth.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Bukal ng Itang.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src="Bukal ng Itang1.png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>        
+
+<br> <h1 class="label">PNR Station <br> (Silangang Malicboy) </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="Silangang Malicboy Station, opened in 1914, was a key transport hub linking Pagbilao to the Bicol Region. It supported local trade, provided jobs, and became a social gathering point. The station also hosted religious icons like Nuestra Señora de Peñafrancia and welcomed national leaders such as Presidents Magsaysay and Marcos, marking its importance in Pagbilao's spiritual, economic, and political history."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="OLD PNR MALICBOY.png" alt=" PNR Station (Silangang Malicboy) " class="destination-img-animate"></div></p><br><strong><p>  PNR Station <br> Silangang <br> Malicboy </strong> <br> ----- <br><h6>  Photo taken January of 2022 <br> by LGU Tourism Pagbilao  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Hidden among the trees of Barangay Silangang Malicboy, the ruins of the <strong> Silangang Malicboy Station </strong>—built in 1914—stand as a quiet reminder of Pagbilao's once-thriving railway past. Part of the Manila–Legazpi line, this Philippine National Railways stop connected Quezon to Bicol, powered by steam trains that used carbon and water from a now-vanished tank. More than just a transit point, the station supported local livelihoods and bore witness to historical moments like WWII escapes and visits from President Ramon Magsaysay. Though now overgrown and crumbling, it remains a symbol of the town's rich transport heritage.
+<br> <br> 🌟 Fun Fact: Locals whisper of ghostly sightings at the old station—figures in white near the tracks or phantom footsteps echoing at night, believed to be spirits of wartime casualties or long-departed passengers still waiting for their train.
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionPNRMalicboy()">Location: PNR Station (Silangang Malicboy)<i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionPNRMalicboyDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMorePNRMalicboy" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closePNRMalicboySeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> PNR Station <br> (Silangang  Malicboy)  </strong> </h4>
+<br> <br>Located in Barangay Silangang Malicboy, Pagbilao, the <strong> old Philippine National Railway Station </strong> is one of the earliest in Quezon, with an estimated floor area of 80 square meters. The foundation is made of concrete, while the upper structure was originally built with hardwood, including wooden windows and a now-deteriorated roof. Red and green paint remains faintly visible near the ground. The station is surrounded by trees, nearby homes, and the railway line on its right side, still marked by scattered support rocks.
+Opened in 1914, the Malicboy Station was part of the Manila–Legazpi line, approximately 156 km from Tutuban. It once served passenger and cargo trains such as the Lucena Express, Penafrancia Express, and Mayon Limited (1988), all now defunct. With the rise of road transport, railway operations declined, and no repairs or restorations have since been made to the station, leaving it in its current state of quiet decay.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="OLD PNR MALICBOY.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div> 
+
+<br> <h1 class="label">Pagbilao Railroad Station</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Philippine National Railroad Station in Brgy. Del Carmen played a vital role in the economic development of Pagbilao and its neighboring municipalities. By providing a faster and more efficient means of transporting goods and people, it helped reduce highway congestion and supported the smooth flow of commerce. This improved access to markets and resources contributed to regional growth and economic advancement. Socially, the station became part of the everyday lives of local families. It served not only as a transport hub but also as a setting for shared experiences and memories. Stories of the station have been passed down through generations, becoming an important part of the community's oral history and identity."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="PNR.png" alt=" Pagbilao Railroad Station " class="destination-img-animate"></div></p><br><strong><p>  Pagbilao Railroad Station </strong> <br> ----- <br><h6>  Photo taken January of 2022 <br> by LGU Tourism Pagbilao  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">The <strong> Pagbilao Railroad Station </strong>, built in 1914, once connected towns from Manila to Legazpi and served passengers and goods for over 90 years until Typhoon Milenyo damaged it in 2006. Located just 40 meters from the public market in Brgy. Del Carmen, the station was built with narra wood, featuring a Dutch-style door and tool room. Over the years, it became more than just a train stop—locals used it for birthdays, weddings, and even as a playground. Today, only about 10% of the structure remains, partly occupied by families and small businesses.
+<br> <br> 🌟 Fun Fact: Locals say it once had piso-playstations, and a bride even roasted two goats there for her wedding feast!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionPNR()">Location: Pagbilao Railroad Station <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionPNRDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMorePNR" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closePNRSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> Pagbilao Railroad Station </strong> </h4>
+<br> <br>The <strong> Pagbilao Railroad Station </strong>, located just 40 meters from the town's public market, was once a vital hub of transport and trade in Quezon Province. Constructed in 1914 during the Manila Railroad Company era (later renamed Philippine National Railways in 1960), the station featured narra wood trusses and walls, a Dutch-style double door, a tool storage room, and screened metal windows. Surrounded by banana trees and remnants of construction materials, it stood as a modest yet functional structure. For 92 years, it served routes connecting Manila to Lucena, Pagbilao to Naga, and onward to Legazpi, providing local residents with access to transportation, commerce, and opportunity. However, its operations ceased in 2006 after Typhoon Milenyo severely damaged the station and destroyed the nearby Mamala Bridge, cutting off access and halting rail service. Though now abandoned, the station remains a nostalgic landmark in Pagbilao's history.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="PNR.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div> 
+
+<br> <h1 class="label">Binahaan Dam</h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="Binahaan Dam plays a vital socioeconomic role by providing irrigation water essential for local farming, reducing household expenses for cooking, planting, and laundry. Its aesthetic appeal—highlighted by the dam's tranquil, aqua-green water and natural surroundings—offers a relaxing escape for locals. Socially, it serves as a gathering place where residents swim, do laundry, and enjoy picnics, strengthening family and community bonds. Scientifically, the dam functions as a flood control and water storage system, regulating the flow of the Lokohin River for agriculture and domestic use while helping mitigate drought during summer."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Binhaan Dam.png" alt="Binahaan Dam" class="destination-img-animate"></div></p><br><strong><p>  Binahaan Dam </strong> <br> ----- <br><h6>  Photo taken January of 2022 <br> by LGU Tourism Pagbilao  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description"><strong> Binahaan Dam </strong>, located in Sitio Logpond, Brgy. Binahaan, is a concrete water reservoir built across the Lokohin River in 1960 by the Southern Luzon Irrigation District. Once made of sandbags by local farmers, it now stands 3.4 meters high and supplies irrigation water to 95 hectares of farmland, supporting the entire community. Surrounded by lush greenery and clear, aqua-colored water, the dam has also become a popular spot for swimming, doing laundry, and unwinding.
+<br> <br> 🌟 Fun Fact:  In 1981, a dramatic fight scene from the movie Kamlon, starring Bong Revilla Sr., was filmed right on the dam!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionBinhaanDam()">Location: Pagbilao Railroad Station <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionBinhaanDamDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreBinhaanDam" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeBinhaanDamSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> Binahaan Dam </strong> </h4>
+<br> <br>The <strong> Binahaan Dam </strong>, located in Sitio Logpond, Brgy. Binahaan, is a 3.4-meter-high concrete structure built across the Lokohin River to store water for irrigation. Constructed in March 1960 by the Southern Luzon Irrigation District, it supplies non-potable water to local farmers and is part of the Binahaan Watershed. The dam features two gated outlets for water control and is surrounded by trees and nearby homes.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Binhaan Dam.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>         
+
+<br> <h1 class="label"> Dr. Cesar Gudani Salvanera  Ancestral House </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="Built during the Spanish era, this ancestral house once served as a Japanese garrison during World War II. Its sturdy, vintage wood has withstood time, making the structure both scientifically and historically significant. The house's aesthetic charm—especially its warm lights at night—gives passersby a nostalgic Vigan-like ambiance. Spiritually, it is a sacred space that houses religious images, including Mama Mary, and plays a central role during Holy Week processions and Flores de Mayo. Socially, the house once functioned as a classroom, fostering learning, and continues to host community events like "Pagsalubong." Economically, the ground floor has supported livelihoods through rental spaces, while politically, it served as a gathering place visited by figures like former Mayor Trinidad Alvarez. Truly, it is not just a structure—it is a diamond of heritage, family, and faith."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Dr.Ceasar Gudani.png" alt="Dr. Cesar Gudani Salvanera  Ancestral House" class="destination-img-animate"></div></p><br><strong><p> Dr. Cesar Gudani Salvanera  Ancestral House </strong> <br> ----- <br><h6>  Photo taken January of 2022 <br> by LGU Tourism Pagbilao  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Located in Brgy. Sta. Catalina, Pagbilao, this chocolate-brown, two-story ancestral house stands as a living monument to the <strong> Gudani-Salvanera </strong> family's rich history dating back to the late 1800s. Originally built inland after Ruperto Gudani's seaside home was attacked by pirates, the house was relocated in 1909 due to the expansion of the Manila Railroad. Once used as a Japanese garrison during World War II, it now serves as both a rented business space on the ground floor and a cherished family home above. Inside, it houses antique furniture, religious icons, and vintage photographs—including a rare image of Jose Rizal's execution. Though moved and renovated over the years, the house remains in excellent condition, lovingly preserved by the family.
+<br> <br> 🌟 Fun Fact:  The house once hosted the image of Virgen La Milagrosa during Flores de Mayo and even doubled as a classroom—its warm evening lights still evoke nostalgic Vigan vibes!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionDrCeasarGudani()">Location: Dr. Cesar Gudani Salvanera  Ancestral House <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionDrCeasarGudaniDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreDrCeasarGudani" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeDrCeasarGudaniSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> Dr. Cesar Gudani Salvanera  Ancestral House </strong> </h4>
+<br> <br>The <strong> Gudani ancestral house </strong> in Brgy. Sta. Catalina, Pagbilao, sits on a 300-square-meter lot near the public market and tricycle terminal. Painted chocolate brown with capiz shell windows, narra wood carvings, and classic furniture, it reflects old Filipino-Spanish architecture. The two-storey home has three rooms, a wooden staircase, chandeliers, antique religious items, and even bullet holes from the Japanese era. Originally built in 1908 by Ruperto Gudani, a fisherman who survived a pirate attack and credited his recovery and success to the Blessed Virgin Mary, the house was relocated to its current site in 1909 after being displaced by the expansion of the Manila Railroad. It stands today as a symbol of faith, resilience, and family heritage passed through generations.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Dr.Ceasar Gudani.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>                 
+
+<br> <h1 class="label"> Gloria Ancestral House </h1> <br>
+        <div class="container">
+            <div class="container-box" 
+                 data-place-title=" "
+                 data-place-story="The Gloria Ancestral House carries a rich aesthetic appeal, with its vintage interiors, glossy dark-colored stairs, pale detailed walls, and old portraits that evoke the charm of a bygone era. What sets it apart is a small family-run museum a few meters from the house, curated by the youngest daughter, who carefully transferred select heirlooms and furniture for preservation. Socio-politically, the house has witnessed key events, as the family was active in both public service and trade. Socio-economically, their fish trading business greatly supported the livelihood of the surrounding fishing community. Spiritually, the home remains closely tied to religious traditions, hosting events like Palaspasan and the San Isidro festival, reflecting the couple's deep devotion as long-time church servers."
+                 data-place-fact=" "
+                 style="position: relative;">
+                <div class="heading"><div class="img-container-5x5"><img src="Gloria Ancestral.png" alt="Gloria Ancestral House" class="destination-img-animate"></div></p><br><strong><p> Gloria Ancestral House </strong> <br> ----- <br><h6>  Photo taken <br> by LGU Tourism Pagbilao  </p> </h6> </div>
+                
+                <div class="content">
+                    <p class="mobile-description">Located in Pagbilao's Wharf area, the <strong> Gloria Ancestral House </strong> was built in the 1930s by Emilio and Agripina Gloria, a pioneering couple who made their mark in fishing, farming, and trading. Nestled between the Tambak River and the sea, the breezy two-story wooden home features spacious rooms, vintage furniture, a piano imported from New York, and a mini-museum displaying family heirlooms. Over the decades, it has hosted political meetings, religious events, and served as a center for community gatherings. While it has been reinforced with concrete and steel for durability, the house preserves much of its original charm and layout.
+<br> <br> 🌟 Fun Fact: The Gloria family once raised up to 50 pigs in a backyard piggery—proof that this heritage home was not just historic, but also a thriving center of livelihood!
+</p>                 
+                                <br> <br> <a href="#" onclick="myFunctionGloriaAncestral()">Location: Gloria Ancestral House <i class="fa fa-arrow-right"></i></a>
+                </div>
+                <a href="#" class="mobile-see-more" onclick="myFunctionGloriaAncestralDescription(event)">See more <i class="fa fa-arrow-right"></i></a>
+   
+                <div class="see-more-popup" id="seeMoreGloriaAncestral" style="display:none;">
+                  <div class="see-more-popup-content">
+                    <button class="see-more-close-btn" onclick="closeGloriaAncestralSeeMore(event)">&times;</button>
+                    <h4><strong>More about <br> Gloria Ancestral House </strong> </h4>
+<br> <br>Located in the fishing community of Wharf (Daungan), the <strong> Gloria ancestral home </strong> stands as a testament to family legacy and resilience. Built in the 1930s by Emilio Gloria and Agripina Sio, the two-story hardwood house faces the sunrise and Tambak River breezes, offering stunning views and natural ventilation. With spacious rooms, vintage furnishings, a 1948 piano, and a chiming Westminster clock, the house retains its 1950s charm. It includes a piggery, a backyard garden, and a mini-museum preserving family heirlooms. Despite wartime evacuation and fire damage, the home was lovingly rebuilt and expanded to support the couple's nine children. It remains a symbol of the family's hard work, success, and deep connection to the town of Pagbilao.
+</p>
+                  </div>
+                </div>
+                <div class="place-popup">
+                  <div class="popup-header">
+                    <button class="popup-close-btn">&times;</button>
+                  </div>
+                  <div class="popup-content">
+                    <h3></h3>
+                    <strong>Significance</strong>
+                    <div class="popup-story"></div>
+                    <div class="popup-gallery">
+                      <img src="Gloria Ancestral.png" alt="Gallery 1" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 2" class="popup-gallery-img">
+                      <img src=" .png" alt="Gallery 3" class="popup-gallery-img">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>      
+
+    </section>
+
+    <!-- Feedback section starts here -->
+    <section class="feedback-section" style="padding: 3rem 0;">
+        <div style="display: flex; justify-content: center; align-items: flex-start; gap: 2rem; flex-wrap: wrap; max-width: 900px; margin: 0 auto;">
+            <div style="flex: 1; min-width: 250px;">
+                <h2 style="color: #0056b3; margin-bottom: 1.5rem;">We Value Your Feedback!</h2>
+                <p style="margin-bottom: 2rem;">Please let us know your thoughts, suggestions, or experiences by clicking one of the forms on the right.</p>
+            </div>
+            <div style="flex: 1; min-width: 250px; display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-end;">
+                <button style="background: #0056b3; color: #fff; border: none; border-radius: 8px; padding: 1rem 2rem; font-size: 1rem; cursor: pointer; width: 100%; max-width: 300px; text-align: center;" onclick="myFunctionTourismRegistration()">Pagbilao Tourism Registration</button>
+                <button style="background: #0056b3; color: #fff; border: none; border-radius: 8px; padding: 1rem 2rem; font-size: 1rem; cursor: pointer; width: 100%; max-width: 300px; text-align: center;" onclick="myFunctionTourismSurvey()">Pagbilao Tourism Survey Form</button>
+            </div>
+        </div>
+    </section>
+    <!-- Feedback section ends here -->
+
+    <!-- destinatons section ends here  -->
+
+    <!-- featured 
+    <-- footer section starts here  -->
+    <footer>
+        <div class="footer-blue-bar top"></div>
+        <div class="footer-yellow">
+            <section class="footer">
+                <div class="container">
+                    <div class="detail">
+                        <h1>PAGBILAO TOURISM</h1>
+                        <p>ENJOY, HAVE FUN , AND EXPERIENCES <br> OUR NATURAL, IMMOVABLE AND CULTURAL INSTITUITION</p>
+                        <div class="social">
+                            <a href="#" onclick="myFunctionFB()" ><i class="fa fa-facebook-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="about-us">
+                        <h2>LGU PAGBILAO</h2>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">Pagbilao Municipal Hall, Rizal St., <br>Brgy. Sta. Catalina, Pagbilao, Quezon</a></li>
+                        <li><a href="#">Telephone No.:  <span>(042) 797-0937</span></a></li>
+                    </div>
+                    <div class="about-us">
+                        <h4>EMERGENCY HOTLINES</h4>
+                        <li><a href="#">Philippine National Police</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-2854</span></a></li>
+                        <li><a href="#">Bureau of Fire Protection</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-0932</span></a></li>
+                        <li><a href="#">Municipal Health Office</a></li>
+                        <li><a href="#">Telephone No.: <span>(042)797-3092</span></a></li>
+                    </div>
+                </div>
+                <div class="copyright">
+                    &copy;2025 -Pagbilao, Quezon, Philippines. all rights reserved
+                    <div>
+                        <a href="#">term & conditions</a>
+                        <a href="#">privacy policy</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <!-- footer section ends here  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="newscript.js"></script>
+    
+      <style>
+    .place-popup {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #0056b3;
+      border: 6px solid #ffffff;
+      box-shadow: 0 0 32px 0 #0056b3, 0 0 0 8px #0056b3;
+      color: #fff;
+      border-radius: 18px;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 10;
+      transition: opacity 0.2s;
+    }
+    .place-popup.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .popup-header {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 15px;
+    }
+    .popup-close-btn {
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.2s;
+    }
+    .popup-close-btn:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .popup-content {
+      flex: 1;
+      padding: 0 1.5rem 1.5rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: justify;
+    }
+    .popup-content h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .popup-content strong {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .popup-content p {
+      font-size: 1.35rem;
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+    .popup-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .popup-gallery-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 14px;
+      border: 2.5px solid #fff;
+      background: #222;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    #scrollToTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      background-color: #0056b3;
+      color: #fff;
+      cursor: pointer;
+      padding: 0;
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      font-size: 2rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      line-height: 48px;
+      text-align: center;
+      box-shadow: none;
+      transition: none;
+    }
+    #scrollToTopBtn:hover {
+      background-color: #0056b3;
+    }
+    #scrollToTopBtn i {
+        font-size: 20px;
+    }
+    
+    /* Show scroll-to-top button only on mobile devices */
+    @media (max-width: 768px) {
+        #scrollToTopBtn {
+            display: block;
+        }
+    }
+    
+    /* Hide scroll-to-top button on desktop */
+    @media (min-width: 769px) {
+        #scrollToTopBtn {
+            display: none !important;
+        }
+    }
+    
+    .img-container-5x5 {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .img-container-5x5 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .container-box .content p {
+      font-size: 1.35rem;
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+    </style>
+    <script>
+    const placeBoxes = document.querySelectorAll('.container-box[data-place-title]');
+    let popupTimer = null;
+
+    placeBoxes.forEach(box => {
+      const popup = box.querySelector('.place-popup');
+      const popupTitle = popup.querySelector('h3');
+      const popupStory = popup.querySelector('.popup-story');
+      const closeBtn = popup.querySelector('.popup-close-btn');
+
+      // Use a function to show the popup to avoid duplicating code
+      const showPopup = () => {
+        popupTitle.textContent = box.getAttribute('data-place-title') || '';
+        popupStory.textContent = box.getAttribute('data-place-story') || '';
+        popup.classList.add('show');
+      };
+
+      // Use mouseenter and mouseleave for desktop only
+      if (window.innerWidth > 600) {
+        box.addEventListener('mouseenter', () => {
+          popupTimer = setTimeout(showPopup, 500);
+        });
+        box.addEventListener('mouseleave', () => {
+          clearTimeout(popupTimer);
+          popup.classList.remove('show');
+        });
+      }
+
+      // Add click event directly to the image only for mobile
+      if (window.innerWidth <= 600) {
+        const image = box.querySelector('.destination-img-animate');
+        if (image) {
+          image.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            showPopup();
+          });
+        }
+      }
+      
+      if (closeBtn) {
+        closeBtn.addEventListener('click', (e) => {
+          e.stopPropagation(); // Stop the click from bubbling up to the box
+          popup.classList.remove('show');
+        });
+      }
+    });
+
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    window.addEventListener('scroll', () => {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    });
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    </script>
+
+    <style>
+    @media (max-width: 600px) {
+      .place-popup {
+        width: 98vw;
+        height: 98vh;
+        border-width: 3px;
+        border-radius: 10px;
+        padding: 0.5rem 0.2rem;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+      }
+      .popup-content {
+        padding: 0.5rem;
+      }
+      .popup-content h3 {
+        font-size: 1.2rem;
+        padding-top: 4rem; /* Increased padding to lower the title further */
+      }
+      .popup-content strong {
+        font-size: 1rem;
+      }
+      .popup-content p {
+        font-size: 1rem;
+      }
+      .popup-gallery {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+      .popup-gallery-img {
+        width: 180px;
+        height: 180px;
+      }
+      .popup-close-btn {
+        background: #fff !important;
+        color: #0056b3 !important;
+        border: 1.5px solid #ffffff !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      }
+      .img-container-5x5 {
+        width: 90vw;
+        height: 40vw;
+        max-width: 300px;
+        max-height: 150px;
+      }
+      .container-box .content p {
+        font-size: 1rem;
+      }
+      .label {
+        font-size: 1.2rem;
+      }
+      .mobile-see-more {
+        display: block !important;
+        margin: 1rem 0;
+        text-align: center;
+        color: #0056b3;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    @media (min-width: 601px) {
+      .mobile-see-more {
+        display: none !important;
+      }
+    }
+    </style>
+    
+    <script>
+    function myFunctionBigoDescription(event) {
+      console.log('See more clicked - preventing all events');
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreBigo').style.display = 'flex';
+      return false;
+    }
+    function closeBigoSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreBigo').style.display = 'none';
+    }
+    function myFunctionCalibuyboyDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreCalibuyboy').style.display = 'flex';
+      return false;
+    }
+    function closeCalibuyboySeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreCalibuyboy').style.display = 'none';
+    }
+    function myFunctionIyakinDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreIyakin').style.display = 'flex';
+      return false;
+    }
+    function closeIyakinSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreIyakin').style.display = 'none';
+    }
+    function myFunctionSalakDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreSalak').style.display = 'flex';
+      return false;
+    }
+    function closeSalakSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreSalak').style.display = 'none';
+    }
+    function myFunctionBaywalkDaunganDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreBaywalkDaungan').style.display = 'flex';
+      return false;
+    }
+    function closeBaywalkDaunganSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreBaywalkDaungan').style.display = 'none';
+    }
+    function myFunctionPalsabangonBridgeDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMorePalsabangonBridge').style.display = 'flex';
+      return false;
+    }
+    function closePalsabangonBridgeSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMorePalsabangonBridge').style.display = 'none';
+    }
+    function myFunctionCockpitDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreCockpit').style.display = 'flex';
+      return false;
+    }
+    function closeCockpitSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreCockpit').style.display = 'none';
+    }
+     function myFunctionMunicipalDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreMunicipal').style.display = 'flex';
+      return false;
+    }
+    function closeMunicipalSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreMunicipal').style.display = 'none';
+    }
+    function myFunctionMarketDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreMarket').style.display = 'flex';
+      return false;
+    }
+    function closeMarketSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreMarket').style.display = 'none';
+    }
+
+    function myFunctionHEDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreHE').style.display = 'flex';
+      return false;
+    }
+    function closeHESeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreHE').style.display = 'none';
+    }
+
+    function myFunctionMarcosDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreMarcos').style.display = 'flex';
+      return false;
+    }
+    function closeMarcosSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreMarcos').style.display = 'none';
+    }    
+    function myFunctionStAnneDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreStAnne').style.display = 'flex';
+      return false;
+    }
+    function closeStAnneSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreStAnne').style.display = 'none';
+    }        
+   function myFunctionStCatherineDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreStCatherine').style.display = 'flex';
+      return false;
+    }
+    function closeStCatherineSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreStCatherine').style.display = 'none';
+    }            
+   function myFunctionCementeryDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreCementery').style.display = 'flex';
+      return false;
+    }
+    function closeCementerySeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreCementery').style.display = 'none';
+    }                
+
+   function myFunctionBukalngItangDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreBukalngItang').style.display = 'flex';
+      return false;
+    }
+    function closeBukalngItangSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreBukalngItang').style.display = 'none';
+    }                
+
+    function myFunctionGoymaWellDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreGoymaWell').style.display = 'flex';
+      return false;
+    }
+    function closeGoymaWellSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreGoymaWell').style.display = 'none';
+    }               
+    
+    function myFunctionEmeRoadDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreEmeRoad').style.display = 'flex';
+      return false;
+    }
+    function closeEmeRoadSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreEmeRoad').style.display = 'none';
+    }                  
+
+  function myFunctionPNRMalicboyDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMorePNRMalicboy').style.display = 'flex';
+      return false;
+    }
+    function closePNRMalicboySeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMorePNRMalicboy').style.display = 'none';
+    }         
+    
+  function myFunctionPNRDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMorePNR').style.display = 'flex';
+      return false;
+    }
+    function closePNRSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMorePNR').style.display = 'none';
+    }         
+    
+  function myFunctionBinhaanDamDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreBinhaanDam').style.display = 'flex';
+      return false;
+    }
+    function closeBinhaanDamSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreBinhaanDam').style.display = 'none';
+    }                 
+
+    function myFunctionDrCeasarGudaniDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreDrCeasarGudani').style.display = 'flex';
+      return false;
+    }
+    function closeDrCeasarGudaniSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreDrCeasarGudani').style.display = 'none';
+    }                 
+
+   function myFunctionGloriaAncestralDescription(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.getElementById('seeMoreGloriaAncestral').style.display = 'flex';
+      return false;
+    }
+    function closeGloriaAncestralSeeMore(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      document.getElementById('seeMoreGloriaAncestral').style.display = 'none';
+    }                 
+
+
+    </script>
+    
+    <!-- Scroll to Top Button for Mobile -->
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
+  });
+  scrollToTopBtn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+</script>
+<style>
+.destinations .container .container-box {
+  background: #8a8886 !important;
+  border: 6px solid #ffffff !important;
+  box-shadow: 0 8px 32px 0 #8a8886, 0 0 0 8px #8a8886 !important;
+}
+</style>
+
+<style>
+.see-more-close-btn {
+  background: #b5b5b5 !important;
+  color: #000 !important;
+  border: 1.5px solid #ffffff !important;
+}
+</style>
+</body>
+</html>
